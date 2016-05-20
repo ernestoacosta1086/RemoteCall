@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="app.acosta.cf.com.example.ernesto.marcacionremota.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorGray"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_correo"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/textview_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_clave"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textview_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Base.Widget.AppCompat.ProgressBar"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/checked_image"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                 />
+
+            <Button
+                android:id="@+id/button_aceppt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="@string/text_acceptar_button"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorGray"
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="24dp">
+
+        <Button
+            android:id="@+id/button_marcacion"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="@string/text_marcacion_button"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_pending"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="@string/text_pendientes_button"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

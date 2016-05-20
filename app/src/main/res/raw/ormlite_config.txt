@@ -1,0 +1,38 @@
+#
+# generated on 2016/02/23 09:54:32
+#
+# --table-start--
+dataClass=app.acosta.cf.com.example.ernesto.marcacionremota.Models.Marcacion
+tableName=marcacion
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=usuario
+# --field-end--
+# --field-start--
+fieldName=clave
+# --field-end--
+# --field-start--
+fieldName=coordenada_lon
+# --field-end--
+# --field-start--
+fieldName=coordenada_lat
+# --field-end--
+# --field-start--
+fieldName=numero_usuario
+# --field-end--
+# --field-start--
+fieldName=fecha
+# --field-end--
+# --field-start--
+fieldName=hora
+# --field-end--
+# --field-start--
+fieldName=tipo_marcacion
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

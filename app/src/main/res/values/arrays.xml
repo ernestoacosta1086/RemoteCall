@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_marcacion_tipos">
+        <item>E/S Empresa letra I</item>
+        <item>E/S Almuerzo letra O</item>
+        <item>E/S Permiso letra P</item>
+        <item>Seguimiento letra S</item>
+    </string-array>
+</resources>
+
+
+
+

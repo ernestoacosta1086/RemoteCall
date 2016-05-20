@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Marcacion Remota</string>
+
+    <!-- Values -->
+    <string name="text_correo_example">usuario@controlhidrocarburos.gob.ec</string>
+
+    <string name="text_pendientes_button">Enviar marcaciones pendientes (%1$s)</string>
+
+
+    <!-- Keys -->
+    <string name="key_usuario">usuario</string>
+    <string name="key_clave">clave</string>
+    <string name="authenticated">authenticated</string>
+    <string name="text_identificacion">Identificación</string>
+
+
+    <!-- Titles -->
+    <string name="text_marcacion_button">Marcación remota</string>
+    <string name="text_clave">Contraseña</string>
+    <string name="text_correo">Correo</string>
+    <string name="text_acceptar_button">Aceptar</string>
+    <string name="text_enviar_marcaciones">Enviar marcaciones</string>
+    <string name="text_enviar">Enviar marcación</string>
+
+
+    <!-- Error Messsages -->
+    <string name="no_conection">No hay conexión a internet las marcaciones se guardarán en Marcaciones Pendientes</string>
+    <string name="autentication_success">Usuario y contraseña aceptados corectamente</string>
+    <string name="autentication_failed">Usuario o contraseña incorrecto</string>
+    <string name="marcacion_borrada">Marcación eliminada</string>
+    <string name="gps_disconnected">No se ha podido obtener su ubicación debe encender el GPS o los Dátos móviles</string>
+    <string name="autentication_error">Usuario o contraseña incorrectos</string>
+    <string name="autentication_no_conexion">No hay conexión con el servidor</string>
+    <string name="number_error">Número de trabajador incorrecto</string>
+    <string name="no_authenticated">Debe guardar un usuario y contraseña correctos</string>
+    <string name="marcacion_success">Marcación enviada corectamente</string>
+    <string name="marcacion_error">Problemas de conexión la Marcación se guardó en Marcaciones por enviar</string>
+
+
+</resources>
